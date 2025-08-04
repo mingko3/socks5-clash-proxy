@@ -7,7 +7,11 @@ lines = response.text.strip().split('\n')
 
 clash_proxies = []
 for index, line in enumerate(lines[:20]):
-    ip, port = line.strip().split(':')
+    parts = line.strip().split(':')
+    if len(parts) < 2:
+        continue
+    ip, port = parts[0], parts[1]
+
     proxy = {
         'name': f"S5_{index + 1}",
         'type': 'socks5',
