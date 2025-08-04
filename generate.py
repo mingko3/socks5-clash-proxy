@@ -6,14 +6,14 @@ response = requests.get(url)
 lines = response.text.strip().split('\n')
 
 clash_proxies = []
-for index, line in enumerate(lines[:20]):
+for index, line in enumerate(lines[:20]):  # 可根据需要改为更多条
     parts = line.strip().split(':')
-    if len(parts) < 2:
-        continue
-    ip, port = parts[0], parts[1]
+    if len(parts) != 2:
+        continue  # 跳过不符合“IP:端口”格式的行
 
+    ip, port = parts
     proxy = {
-        'name': f"S5_{index + 1}",
+        'name': f'S5_{index + 1}',
         'type': 'socks5',
         'server': ip,
         'port': int(port),
