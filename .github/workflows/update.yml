@@ -29,6 +29,6 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@users.noreply.github.com"
           git add *.yaml
-          git commit -m "Auto update proxies" || echo "Nothing to commit"
+          git commit -m "Auto update proxies" || echo "Nothing to commit "
           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/mingko3/socks5-clash-proxy.git
           git push
