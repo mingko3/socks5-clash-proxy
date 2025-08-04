@@ -22,7 +22,7 @@ jobs:
         run: pip install requests pyyaml
 
       - name: Run script to generate proxy.yaml
-        run: python gen.py
+        run: python generate.py
 
       - name: Setup Git credentials
         run: |
