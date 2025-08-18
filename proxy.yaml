@@ -13,98 +13,68 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-3
-  port: 15673
-  server: 8.210.117.246
-  type: socks5
-  udp: true
-- name: socks5-4
   port: 63253
   server: 187.63.9.62
   type: socks5
   udp: true
-- name: socks5-5
+- name: socks5-4
   port: 8192
   server: 31.211.142.115
   type: socks5
   udp: true
-- name: socks5-6
-  port: 1080
-  server: 93.184.4.254
+- name: socks5-5
+  port: 38660
+  server: 207.154.230.54
   type: socks5
   udp: true
-- name: socks5-7
+- name: socks5-6
   port: 3909
   server: 138.199.25.13
   type: socks5
   udp: true
-- name: socks5-8
+- name: socks5-7
   port: 46818
   server: 150.230.249.42
   type: socks5
   udp: true
-- name: socks5-9
+- name: socks5-8
   port: 5441
   server: 117.74.65.207
   type: socks5
   udp: true
-- name: socks5-10
-  port: 35973
-  server: 193.123.252.70
-  type: socks5
-  udp: true
-- name: socks5-11
+- name: socks5-9
   port: 63617
   server: 37.44.238.2
   type: socks5
   udp: true
-- name: socks5-12
-  port: 1080
-  server: 184.95.235.194
-  type: socks5
-  udp: true
-- name: socks5-13
+- name: socks5-10
   port: 7497
   server: 167.71.220.29
   type: socks5
   udp: true
-- name: socks5-14
+- name: socks5-11
   port: 1080
   server: 91.200.115.49
   type: socks5
   udp: true
-- name: socks5-15
+- name: socks5-12
   port: 1080
   server: 113.176.118.150
   type: socks5
   udp: true
-- name: socks5-16
+- name: socks5-13
   port: 8975
   server: 185.87.121.35
   type: socks5
   udp: true
-- name: socks5-17
-  port: 443
-  server: 81.143.236.200
-  type: socks5
-  udp: true
-- name: socks5-18
+- name: socks5-14
   port: 8975
   server: 185.87.121.5
   type: socks5
   udp: true
-- name: socks5-19
+- name: socks5-15
   port: 8975
   server: 185.86.5.162
-  type: socks5
-  udp: true
-- name: socks5-20
-  port: 19050
-  server: 51.83.190.248
-  type: socks5
-  udp: true
-- name: socks5-21
-  port: 1080
-  server: 113.160.188.21
   type: socks5
   udp: true
 proxy-groups:
@@ -126,12 +96,6 @@ proxy-groups:
   - socks5-13
   - socks5-14
   - socks5-15
-  - socks5-16
-  - socks5-17
-  - socks5-18
-  - socks5-19
-  - socks5-20
-  - socks5-21
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
