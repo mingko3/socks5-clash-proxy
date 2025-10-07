@@ -8,33 +8,33 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-2
-  port: 38660
-  server: 207.154.230.54
+  port: 63253
+  server: 187.63.9.62
   type: socks5
   udp: true
 - name: socks5-3
   port: 1080
-  server: 102.36.127.53
+  server: 184.95.220.42
   type: socks5
   udp: true
 - name: socks5-4
+  port: 1080
+  server: 102.36.127.53
+  type: socks5
+  udp: true
+- name: socks5-5
   port: 3909
   server: 138.199.25.13
   type: socks5
   udp: true
-- name: socks5-5
+- name: socks5-6
   port: 5441
   server: 117.74.65.207
   type: socks5
   udp: true
-- name: socks5-6
+- name: socks5-7
   port: 1080
   server: 184.95.235.194
-  type: socks5
-  udp: true
-- name: socks5-7
-  port: 7497
-  server: 167.71.220.29
   type: socks5
   udp: true
 - name: socks5-8
@@ -43,8 +43,8 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-9
-  port: 8975
-  server: 185.87.121.5
+  port: 1080
+  server: 113.160.188.21
   type: socks5
   udp: true
 proxy-groups:
