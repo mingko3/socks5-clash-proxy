@@ -8,8 +8,8 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-2
-  port: 3909
-  server: 138.199.25.13
+  port: 38660
+  server: 207.154.230.54
   type: socks5
   udp: true
 - name: socks5-3
