@@ -24,7 +24,7 @@ proxies:
   udp: true
 - name: socks5-5
   port: 8975
-  server: 185.86.5.162
+  server: 185.87.121.35
   type: socks5
   udp: true
 proxy-groups:
