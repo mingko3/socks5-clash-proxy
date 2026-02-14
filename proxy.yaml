@@ -3,41 +3,56 @@ mode: Rule
 port: 7890
 proxies:
 - name: socks5-1
-  port: 9060
-  server: 161.97.129.202
+  port: 1080
+  server: 85.174.84.22
   type: socks5
   udp: true
 - name: socks5-2
   port: 1080
-  server: 102.36.127.53
+  server: 212.33.248.45
   type: socks5
   udp: true
 - name: socks5-3
+  port: 1080
+  server: 102.36.127.53
+  type: socks5
+  udp: true
+- name: socks5-4
   port: 44567
   server: 195.39.233.14
   type: socks5
   udp: true
-- name: socks5-4
+- name: socks5-5
+  port: 1080
+  server: 185.54.178.193
+  type: socks5
+  udp: true
+- name: socks5-6
   port: 63617
   server: 37.44.238.2
   type: socks5
   udp: true
-- name: socks5-5
-  port: 1080
-  server: 113.176.118.150
+- name: socks5-7
+  port: 8975
+  server: 185.87.121.35
   type: socks5
   udp: true
-- name: socks5-6
+- name: socks5-8
+  port: 8975
+  server: 185.87.121.5
+  type: socks5
+  udp: true
+- name: socks5-9
   port: 8975
   server: 185.86.5.162
   type: socks5
   udp: true
-- name: socks5-7
+- name: socks5-10
   port: 7878
   server: 202.6.233.59
   type: socks5
   udp: true
-- name: socks5-8
+- name: socks5-11
   port: 1080
   server: 113.160.188.21
   type: socks5
@@ -54,6 +69,9 @@ proxy-groups:
   - socks5-6
   - socks5-7
   - socks5-8
+  - socks5-9
+  - socks5-10
+  - socks5-11
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
