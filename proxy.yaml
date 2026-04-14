@@ -19,7 +19,7 @@ proxies:
   udp: true
 - name: socks5-4
   port: 1080
-  server: 85.143.254.38
+  server: 212.33.248.45
   type: socks5
   udp: true
 - name: socks5-5
@@ -38,8 +38,8 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-8
-  port: 1080
-  server: 184.95.235.194
+  port: 30277
+  server: 132.226.7.23
   type: socks5
   udp: true
 - name: socks5-9
@@ -48,11 +48,6 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-10
-  port: 7878
-  server: 202.6.233.59
-  type: socks5
-  udp: true
-- name: socks5-11
   port: 1080
   server: 113.160.188.21
   type: socks5
@@ -71,7 +66,6 @@ proxy-groups:
   - socks5-8
   - socks5-9
   - socks5-10
-  - socks5-11
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
