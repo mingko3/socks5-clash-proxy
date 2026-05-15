@@ -7,11 +7,23 @@ proxies:
   server: 187.63.9.62
   type: socks5
   udp: true
+- name: socks5-2
+  port: 8192
+  server: 31.211.142.115
+  type: socks5
+  udp: true
+- name: socks5-3
+  port: 1080
+  server: 113.160.188.21
+  type: socks5
+  udp: true
 proxy-groups:
 - interval: 300
   name: auto
   proxies:
   - socks5-1
+  - socks5-2
+  - socks5-3
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
