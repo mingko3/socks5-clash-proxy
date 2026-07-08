@@ -29,22 +29,22 @@ proxies:
   udp: true
 - name: socks5-6
   port: 3699
-  server: 185.151.86.121
+  server: 185.151.86.86
   type: socks5
   udp: true
 - name: socks5-7
-  port: 3701
-  server: 194.190.169.197
+  port: 3699
+  server: 185.151.86.121
   type: socks5
   udp: true
 - name: socks5-8
-  port: 18013
-  server: 38.127.172.34
+  port: 3909
+  server: 138.199.25.13
   type: socks5
   udp: true
 - name: socks5-9
-  port: 42908
-  server: 38.127.172.8
+  port: 3701
+  server: 194.190.169.197
   type: socks5
   udp: true
 - name: socks5-10
