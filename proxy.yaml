@@ -53,8 +53,8 @@ proxies:
   type: socks5
   udp: true
 - name: socks5-11
-  port: 7878
-  server: 202.6.233.59
+  port: 10084
+  server: 51.195.102.120
   type: socks5
   udp: true
 - name: socks5-12
