@@ -3,48 +3,48 @@ mode: Rule
 port: 7890
 proxies:
 - name: socks5-1
-  port: 9060
-  server: 161.97.129.202
-  type: socks5
-  udp: true
-- name: socks5-2
   port: 63253
   server: 187.63.9.62
   type: socks5
   udp: true
-- name: socks5-3
+- name: socks5-2
   port: 8192
   server: 31.211.142.115
   type: socks5
   udp: true
-- name: socks5-4
+- name: socks5-3
   port: 38172
   server: 69.55.49.177
   type: socks5
   udp: true
-- name: socks5-5
+- name: socks5-4
   port: 3699
   server: 185.151.86.86
   type: socks5
   udp: true
+- name: socks5-5
+  port: 49032
+  server: 103.242.107.227
+  type: socks5
+  udp: true
 - name: socks5-6
-  port: 3699
-  server: 185.151.86.121
+  port: 3701
+  server: 194.190.169.197
   type: socks5
   udp: true
 - name: socks5-7
-  port: 1080
-  server: 113.176.118.150
+  port: 9764
+  server: 162.243.102.207
   type: socks5
   udp: true
 - name: socks5-8
-  port: 7878
-  server: 202.6.233.59
+  port: 1080
+  server: 46.241.57.29
   type: socks5
   udp: true
 - name: socks5-9
   port: 1080
-  server: 113.160.188.21
+  server: 113.176.118.150
   type: socks5
   udp: true
 proxy-groups:
