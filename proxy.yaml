@@ -1,11 +1,17 @@
 allow-lan: true
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: socks5-1
+  port: 1080
+  server: 212.33.248.45
+  type: socks5
+  udp: true
 proxy-groups:
 - interval: 300
   name: auto
-  proxies: []
+  proxies:
+  - socks5-1
   type: url-test
   url: http://www.gstatic.com/generate_204
 rules:
