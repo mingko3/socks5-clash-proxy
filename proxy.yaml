@@ -24,7 +24,7 @@ proxies:
   udp: true
 - name: socks5-5
   port: 3699
-  server: 185.151.86.86
+  server: 185.151.86.121
   type: socks5
   udp: true
 - name: socks5-6
